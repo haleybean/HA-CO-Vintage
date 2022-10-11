@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Playfair+Display&display=swap');
 
 a [
-	font-size; 16px; 
+	font-size: 16px; 
 ]
 
 
 body [
-	font-family; 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif;
 
 
 nav ul li [
-		margin-left; 2rem;
+		margin-left: 2rem;
 ]
 
 
 nav ul li: first-child [
-		margin-left; 2rem;
+		margin-left: 2rem;
 ]
 
