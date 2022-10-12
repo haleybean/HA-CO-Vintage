@@ -10,12 +10,15 @@ body [
 
 
 nav ul li [
-		margin-left: 2rem;
+		margin-left; 2rem;
 ]
 
 
 nav ul li: first-child [
-		margin-left: 0;
+		margin-left; 0;
+		margin-right: auto
+]
+
 ]
 
 
