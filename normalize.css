@@ -7,7 +7,7 @@
  */
 
 html {
-  font-family: playfair display; /* 1 */
+  font-family: serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -422,4 +422,3 @@ table {
 td,
 th {
   padding: 0;
-}
