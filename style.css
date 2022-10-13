@@ -1,25 +1,168 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Playfair+Display&display=swap');
-
-a [
-	font-size; 16px; 
-]
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 
-body [
-	font-family; 'Playfair Display', serif;
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	position: absolute;
+	font-family: 'Playfair Display', serif;
+}
+
+nav {
+	width: 100vw;
+	position: absolute;
+	background-color: #d9d9d9;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 1rem;
+	display: flex; 
+}
+
+nav ul li {
+	margin-left: 2rem;
+}
+
+nav ul li:first-child {
+	margin-left: 0rem;
+	margin-right: auto;
+}
+
+nav ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
 
 
-nav ul li [
-		margin-left; 2rem;
-]
+a.brand {
+	font-size: 16px;
+	font-weight: bold;
+} 
 
+section.recentlyadded {
+	margin-top: 5rem;
+	margin-left: 2rem;
 
-nav ul li: first-child [
-		margin-left; 0;
-		margin-right: auto
-]
+}
 
-]
+section.recentlyadded h1 {
+font-weight: 200;
+}
 
+.container img {
+	max-width: 100%;
+	margin: 100 auto;
+	justify-content: center;
+	align-content: center;
+	margin-left: 4rem;
+}
 
+section.about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
 
+section.about h1 {
+	font-weight: 200;
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  margin-left: 4rem;
+  margin-right: 2rem;
+}
+
+section.about p {
+	font-size: 18px;
+	padding-right: 17rem;
+	font-weight: 50;
+
+}
+
+section.lookbook {
+	margin-left: 2rem;
+}
+section.lookbook h1 {
+	font-weight: 200;
+
+}
+
+section.shop {
+	margin-left: 2rem;
+}
+
+section.shop h1 {
+	font-weight: 200;
+
+}
+section.footer {
+	background-color: #d9d9d9;
+	width: 100vw;
+	height: 20vh;
+}
+
+@media screen and (max-width: 600px) {
+	nav ul {
+		flex-direction: column;
+	}
+	nav ul li {
+		margin-left: 0rem;
+		margin-bottom: 0.3rem;
+	}
+	.container {
+		max-width: 100%;
+		margin: 0 2rem;
+	}
+	.container img {
+		max-width: 100%;
+	}
+	img {
+		max-width: 100%;
+	}
+	section.about {
+		max-width: 100%;
+		margin-left: 0rem;
+	}
+	section.about img {
+		max-width: 8000%;
+		margin-left: 0rem;
+		margin-right: 0rem;
+	}
+	section.about p {
+		padding-right: 0rem;
+	}
+
+	.row {
+		display: block;
+		text-align: center;
+	}
+	.row img {
+		margin-right: 0rem;
+		margin-left: 0rem;
+	}
+	.column img {
+		margin-right: 0rem;
+		margin-left: 0rem;
+	}
+}
